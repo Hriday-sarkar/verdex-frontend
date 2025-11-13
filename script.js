@@ -1,4 +1,9 @@
+// at top of file
+const API_BASE = "https://verdex-backend.onrender.com/api/cases";
+
+
 // Simulated sample cases
+
 const cases = [
   { id: 1, title: "Was it fair to take credit for group work?", desc: "A student took credit for a project others helped with.", visibility: "public" },
   { id: 2, title: "Should phones be banned in class?", desc: "Some students argue it affects focus, others say it's helpful.", visibility: "public" }
