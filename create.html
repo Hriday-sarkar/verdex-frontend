@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create a Case - Verdex</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📝 File a New Case</h1>
+    <a href="index.html">🏛 Back to Courtroom</a>
+  </header>
+
+  <main class="form-wrapper">
+    <form id="case-form" class="case-form">
+      <h2>Case Registration Form</h2>
+
+      <label for="title">Case Title</label>
+      <input type="text" id="title" placeholder="Enter a short case title..." required>
+
+      <label for="description">Case Description</label>
+      <textarea id="description" placeholder="Describe what happened..." required></textarea>
+
+      <label for="visibility">Visibility</label>
+      <select id="visibility">
+        <option value="public">🌍 Public – visible to all</option>
+        <option value="private">🔒 Private – by shareable link only</option>
+      </select>
+
+      <button type="submit">Submit to Court ⚖️</button>
+      <p id="result"></p>
+    </form>
+  </main>
+
+  <footer>
+    <p>Verdex © 2025 – Anonymous Justice for All</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

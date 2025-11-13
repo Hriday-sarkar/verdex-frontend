@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Case File - Verdex</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="case-title">⚖️ Case Loading...</h1>
+    <a href="index.html">🏛 Back to Courtroom</a>
+  </header>
+
+  <main>
+    <p id="case-desc"></p>
+    <div id="vote-buttons">
+      <button onclick="vote('guilty')">Guilty 😔</button>
+      <button onclick="vote('neutral')">Neutral 😐</button>
+      <button onclick="vote('not_guilty')">Not Guilty 😇</button>
+    </div>
+
+    <p id="vote-result"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
