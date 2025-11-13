@@ -1,5 +1,5 @@
 // at top of file
-const API_BASE = "https://verdex-backend.onrender.com/api/cases";
+const API_BASE = "https://verdex-backend-nfog.onrender.com";
 
 
 // Simulated sample cases
